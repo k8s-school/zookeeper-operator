@@ -8,7 +8,6 @@ metadata:
 spec:
   group: zookeeper.stackable.tech
   names:
-    categories: []
     kind: ZookeeperCluster
     plural: zookeeperclusters
     shortNames:
@@ -16,8 +15,7 @@ spec:
     singular: zookeepercluster
   scope: Namespaced
   versions:
-    - additionalPrinterColumns: []
-      name: v1alpha1
+    - name: v1alpha1
       schema:
         openAPIV3Schema:
           description: Auto-generated derived type for ZookeeperClusterSpec via `CustomResource`
@@ -785,7 +783,6 @@ metadata:
 spec:
   group: zookeeper.stackable.tech
   names:
-    categories: []
     kind: ZookeeperZnode
     plural: zookeeperznodes
     shortNames:
@@ -794,8 +791,7 @@ spec:
     singular: zookeeperznode
   scope: Namespaced
   versions:
-    - additionalPrinterColumns: []
-      name: v1alpha1
+    - name: v1alpha1
       schema:
         openAPIV3Schema:
           description: Auto-generated derived type for ZookeeperZnodeSpec via `CustomResource`
